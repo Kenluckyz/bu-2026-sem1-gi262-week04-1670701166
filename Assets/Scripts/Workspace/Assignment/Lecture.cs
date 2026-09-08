@@ -13,28 +13,14 @@ namespace Assignment
             // LCT04_SyntaxDictionary();
         }
 
-        #region Lecture
-
         public void LCT01_SyntaxList()
         {
             throw new System.NotImplementedException();
         }
-
         public void LCT02_SyntaxLinkedList()
         {
-            throw new System.NotImplementedException();
+            LinkedList<string> linkedlist = new LinkedList<string>();
+            linkedlist.AddLast("Node 1");
         }
-
-        public void LCT03_SyntaxHashTable()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void LCT04_SyntaxDictionary()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        #endregion
     }
 }
